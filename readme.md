@@ -3,9 +3,9 @@
 ### A simple character controller example for 3D games
 
 Features:
-- Walking, Sprinting, Crouching, Jumping
-- Inertia
-- Stamina for sprinting
+- All basic movement (walking, sprinting, crouching, jumping)
+- Customizable inertia
+- Stamina for sprinting, with regeneration options
 - Controls thru Input System
 - Noclip (toggleable in inspector)
 - Dynamic camera (tilt when strafing left/right, fov change when sprinting)
