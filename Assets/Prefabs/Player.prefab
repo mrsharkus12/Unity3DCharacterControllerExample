@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4004440877570622064}
   - component: {fileID: 3645656258204686703}
   - component: {fileID: 127913282051295033}
+  - component: {fileID: 687017105171685421}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -279,6 +280,19 @@ MonoBehaviour:
   tiltSpeed: 5
   defaultFOV: 0
   targetFOV: 0
+--- !u!114 &687017105171685421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893988520846356306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d46c98be1861e345bbb05694a39db0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 3645656258204686703}
 --- !u!1 &5181972953460939329
 GameObject:
   m_ObjectHideFlags: 0
