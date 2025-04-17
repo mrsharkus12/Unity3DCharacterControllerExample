@@ -34,10 +34,6 @@ namespace Game.Player
         [Header("Inertia Settings")]
         [SerializeField] private Inertia inertia;
 
-        [Header("Fall Damage Settings")]
-        public float fallDamageThreshold = 10f;
-        public float fallDamageMultiplier = 5f;
-
         [Header("Crouch Settings")]
         public float crouchSmoothSpeed = 10f;
 
